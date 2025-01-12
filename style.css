@@ -196,7 +196,7 @@ p {
     height: 8vw;
     position: absolute;
     top: 70vw;
-    left: 45vw;
+    left: 47vw;
     z-index: 5;
   }
   @keyframes fly-down {
