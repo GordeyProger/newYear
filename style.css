@@ -93,7 +93,7 @@ p {
 .photo {
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 100;
 }
 .gifts {
   width: 8vw;
@@ -101,7 +101,7 @@ p {
   position: absolute;
   top: 35vw;
   left: 45vw;
-  z-index: 1;
+  z-index: 5;
 }
 .up {
   text-transform: uppercase;
@@ -167,7 +167,7 @@ p {
   border-radius: 30px;
   opacity: 0;
   text-align: center;
-  z-index: 3;
+  z-index: 2;
   width: 80%;
   font-family: SEGOE PRINT;
 }
@@ -201,3 +201,4 @@ p {
 .fly-down {
   animation: fly-down 1s forwards;
 }
+
