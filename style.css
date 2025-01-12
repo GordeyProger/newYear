@@ -96,11 +96,11 @@ p {
   z-index: 100;
 }
 .gifts {
-  width: 10vw;
-  height: 10vw;
+  width: 9vw;
+  height: 9vw;
   position: absolute;
   top: 50vw;
-  left: 50vw;
+  left: 46vw;
   z-index: 5;
 }
 .up {
