@@ -191,53 +191,53 @@ p {
 }
 @media (max-width: 770px) {
   .gifts {
-    width: 9vw;
-    height: 9vw;
+    width: 8vw;
+    height: 8vw;
     position: absolute;
     top: 70vw;
-    left: 47vw;
+    left: 45vw;
     z-index: 5;
   }
   @keyframes fly-down {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(36vw, 15vw);
+      opacity: 1;
+    }
   }
-  100% {
-    transform: translate(36vw, 15vw);
-    opacity: 1;
-  }
-}
   @keyframes fly-left {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-36vw, 15vw);
+      opacity: 1;
+    }
   }
-  100% {
-    transform: translate(-36vw, 15vw);
-    opacity: 1;
-  }
-}
 
-@keyframes fly-right {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
+  @keyframes fly-right {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-36vw, -15vw);
+      opacity: 1;
+    }
   }
-  100% {
-    transform: translate(-36vw, -15vw);
-    opacity: 1;
-  }
-}
 
-@keyframes fly-up {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
+  @keyframes fly-up {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(36vw, -15vw);
+      opacity: 1;
+    }
   }
-  100% {
-    transform: translate(36vw, -15vw);
-    opacity: 1;
-  }
-}
 }
