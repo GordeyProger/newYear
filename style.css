@@ -15,31 +15,66 @@ h1 {
   font-size: 5vw;
   font-family: "welcome";
 }
-header {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 10vw;
-}
 .maini,
 h2,
 p {
+  text-align: center;
   font-size: 2vw;
   font-family: "Comic Sans MS", cursive;
 }
-footer {
+.big4 {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-areas:
+    "zag zag zag zag zag zag"
+    "pust1 pust1 elka elka pust2 pust2"
+    "pust3 pust3 elka elka pust4 pust4"
+    "pust3 pust3 elka elka pust4 pust4"
+    "time time time time time time";
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+}
+.d1 {
+  grid-area: zag;
+}
+.d2 {
+  grid-area: pust1;
+}
+.d3 {
+  grid-area: pust2;
+}
+.d4 {
+  grid-area: pust3;
+}
+.d5 {
+  grid-area: pust4;
+}
+.d6 {
+  grid-area: elka;
+  display: flex;
+}
+.d7 {
+  grid-area: time;
   display: block;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin: auto;
   height: 20%;
-  width: 60%;
+  width: 100%;
   position: relative;
 }
-footer .countdown_timer {
+.d7 .countdown_timer {
   display: flex;
+  justify-content: center;
   justify-content: space-between;
+  width: 100%;
 }
 .countdown_timer .timer {
   padding: 20px;
@@ -52,13 +87,8 @@ footer .countdown_timer {
   color: white;
   text-transform: uppercase;
 }
-footer h2 {
+.d7 h2 {
   color: white;
-}
-.interact {
-  width: 40%;
-  height: 600px;
-  display: flex;
 }
 .photo {
   width: 100%;
@@ -73,13 +103,21 @@ footer h2 {
   left: 45vw;
   z-index: 1;
 }
+.up {
+  text-transform: uppercase;
+  color: rgb(211, 91, 91);
+}
+.grad {
+  color: rgb(156, 57, 57);
+  font-size: 5vw;
+}
 @keyframes fly-left {
   0% {
     transform: translate(0, 0);
     opacity: 1;
   }
   100% {
-    transform: translate(-100px, -50px);
+    transform: translate(-30vw, -10vw);
     opacity: 1;
   }
 }
@@ -90,7 +128,7 @@ footer h2 {
     opacity: 1;
   }
   100% {
-    transform: translate(-20vw, 10vw);
+    transform: translate(-30vw, 10vw);
     opacity: 1;
   }
 }
@@ -101,7 +139,7 @@ footer h2 {
     opacity: 1;
   }
   100% {
-    transform: translate(-20vw, -10vw);
+    transform: translate(-30vw, -10vw);
     opacity: 1;
   }
 }
@@ -112,7 +150,7 @@ footer h2 {
     opacity: 1;
   }
   100% {
-    transform: translate(20vw, -10vw);
+    transform: translate(30vw, -10vw);
     opacity: 1;
   }
 }
@@ -123,7 +161,7 @@ footer h2 {
     opacity: 1;
   }
   100% {
-    transform: translate(20vw, 10vw);
+    transform: translate(30vw, 10vw);
     opacity: 1;
   }
 }
@@ -146,18 +184,4 @@ footer h2 {
 
 .fly-down {
   animation: fly-down 1s forwards;
-}
-main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 50vw;
-}
-.up {
-  text-transform: uppercase;
-  color: rgb(211, 91, 91);
-}
-.grad {
-  color: rgb(156, 57, 57);
 }
