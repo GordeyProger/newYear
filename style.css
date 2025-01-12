@@ -102,7 +102,6 @@ p {
   top: 35vw;
   left: 45vw;
   z-index: 1;
-  opacity: 0;
 }
 .up {
   text-transform: uppercase;
@@ -111,23 +110,6 @@ p {
 .grad {
   color: rgb(156, 57, 57);
   font-size: 5vw;
-}
-.mes {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  box-shadow: 0 0 10px black;
-  background-color: rgb(235, 51, 51);
-  font-size: 5vw;
-  padding: 20px 40px;
-  border-radius: 30px;
-  opacity: 0;
-  text-align: center;
-  z-index: 3;
-  width: 80%;
-  font-family: CURSIVE;
 }
 @keyframes fly-left {
   0% {
@@ -172,7 +154,23 @@ p {
     opacity: 1;
   }
 }
-
+.mes {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-shadow: 0 0 10px black;
+  background-color: rgb(235, 51, 51);
+  font-size: 5vw;
+  padding: 20px 40px;
+  border-radius: 30px;
+  opacity: 0;
+  text-align: center;
+  z-index: 3;
+  width: 80%;
+  font-family: CURSIVE;
+}
 @keyframes fly-down {
   0% {
     transform: translate(0, 0);
