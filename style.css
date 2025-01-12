@@ -29,7 +29,7 @@ p {
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 1fr 3fr 3fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr;
   grid-template-areas:
     "zag zag zag zag zag zag"
     "pust1 pust1 elka elka pust2 pust2"
@@ -116,18 +116,7 @@ p {
     opacity: 0;
   }
   100% {
-    transform: translate(-30vw, -10vw);
-    opacity: 1;
-  }
-}
-
-@keyframes fly-left {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-30vw, 10vw);
+    transform: translate(-34vw, 15vw);
     opacity: 1;
   }
 }
@@ -138,7 +127,7 @@ p {
     opacity: 0;
   }
   100% {
-    transform: translate(-30vw, -10vw);
+    transform: translate(-34vw, -15vw);
     opacity: 1;
   }
 }
@@ -149,7 +138,7 @@ p {
     opacity: 0;
   }
   100% {
-    transform: translate(30vw, -10vw);
+    transform: translate(34vw, -15vw);
     opacity: 1;
   }
 }
@@ -176,7 +165,7 @@ p {
     opacity: 0;
   }
   100% {
-    transform: translate(30vw, 10vw);
+    transform: translate(34vw, 15vw);
     opacity: 1;
   }
 }
@@ -200,14 +189,3 @@ p {
 .fly-down {
   animation: fly-down 1s forwards;
 }
-@media (max-width: 770px) {
-  .gifts {
-    width: 8vw;
-    height: 8vw;
-    position: absolute;
-    top: 70vw;
-    left: 45vw;
-    z-index: 5;
-  }
-}
-
