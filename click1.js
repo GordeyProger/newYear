@@ -29,5 +29,6 @@ function izobr() {
   messageDiv.textContent = messages[randomIndex];
   messageDiv.style.opacity = 1;
   setTimeout(() => (messageDiv.style.opacity = "0"), 3000);
+  messageDiv.style.zIndex = 1000;
+  setTimeout(() => (messageDiv.style.zIndex = "2"), 3000);
 }
-
