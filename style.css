@@ -56,7 +56,6 @@ p {
 }
 .d6 {
   grid-area: elka;
-  border: 2px solid black;
   display: flex;
 }
 .d7 {
