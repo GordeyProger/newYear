@@ -29,11 +29,10 @@ p {
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "zag zag zag zag zag zag"
     "pust1 pust1 elka elka pust2 pust2"
-    "pust3 pust3 elka elka pust4 pust4"
     "pust3 pust3 elka elka pust4 pust4"
     "time time time time time time";
   text-align: center;
