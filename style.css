@@ -200,4 +200,14 @@ p {
 .fly-down {
   animation: fly-down 1s forwards;
 }
+@media (max-width: 770px) {
+  .gifts {
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    top: 70vw;
+    left: 45vw;
+    z-index: 5;
+  }
+}
 
