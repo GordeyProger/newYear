@@ -127,6 +127,7 @@ p {
   text-align: center;
   z-index: 3;
   width: 80%;
+  font-family: CURSIVE;
 }
 @keyframes fly-left {
   0% {
