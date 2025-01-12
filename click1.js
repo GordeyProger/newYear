@@ -25,7 +25,9 @@ function izobr() {
 
   // Генерируем случайный индекс
   const randomIndex = Math.floor(Math.random() * messages.length);
-
-  // Выводим случайное сообщение
-  alert(messages[randomIndex]);
+  const messageDiv = document.getElementById("message");
+  messageDiv.textContent = messages[randomIndex];
+  messageDiv.style.opacity = 1;
+  setTimeout(() => (messageDiv.style.opacity = "0"), 3000);
 }
+
