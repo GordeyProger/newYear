@@ -73,7 +73,7 @@ p {
 .d7 .countdown_timer {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
 }
 .countdown_timer .timer {
